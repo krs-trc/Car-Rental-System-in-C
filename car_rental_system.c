@@ -194,11 +194,11 @@ void displaycar(){
 	
 	else {
 		    printf("=============== Car Menu ===============\n\n");
-		    printf("Type of Car     Brand           Model     Seat Capacity  Engine Capacity(L)  Transmission  Year manufactured    Colour      Rent Per Day       Plate No.   Availability\n");
+		    printf("Car Type     Brand       Model     Seat   Engine(L)  Transmission  Year MFD    Colour      Rent Per Day       Plate No.   Availability\n");
 		
 		while(fread(&c1, sizeof(struct car),1,fptr)){
 			
-			printf("%6d\t%15s\t%13s\t%10d\t%10.1f\t%10s\t%10d\t%13s%13d\t%15s\t%10s\n", c1.type, c1.brand, c1.model,c1.seat,c1.engine,c1.trans,c1.year,c1.colour,c1.rpd,c1.plate,c1.availability);
+			printf("%4d\t%10s\t%6s\t%6d\t%6.1f\t%14s\t%8d\t%8s%10d\t%13s\t%10s\n", c1.type, c1.brand, c1.model,c1.seat,c1.engine,c1.trans,c1.year,c1.colour,c1.rpd,c1.plate,c1.availability);
 			
 		
 		}
