@@ -33,6 +33,9 @@ File Structure
 ![image](https://github.com/krs-trc/Car-Rental-System-in-C/assets/154535021/b8cb3a19-7111-4102-86e2-24c9bd91b82c)
 - Edit Booking
 
+![image](https://github.com/krs-trc/Car-Rental-System-in-C/assets/154535021/53d623d4-d761-42b9-a573-0fe2dce1877e)
+- Delete Booking
+
 ![image](https://github.com/krs-trc/Car-Rental-System-in-C/assets/154535021/ff40e39a-8502-4c3e-8f90-e1e23c187875)
 - To see the scheduling for each rental car
 
